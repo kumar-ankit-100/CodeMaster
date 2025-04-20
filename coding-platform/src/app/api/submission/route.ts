@@ -78,7 +78,7 @@ export async function POST(req: NextRequest) {
         expected_output: problem.outputs[index],
         callback_url:
           process.env.JUDGE0_CALLBACK_URL ??
-          "https://91a1-2405-201-ac0b-3016-94ae-4e77-1031-51d4.ngrok-free.app/submission-callback",
+          "https://9166-2409-40e7-69-f370-2c2c-19ff-d51d-3dbe.ngrok-free.app/submission-callback",
       })),
     },
   );
