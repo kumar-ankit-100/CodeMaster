@@ -19,6 +19,11 @@ CodeMaster implements a comprehensive hiring pipeline designed to evaluate candi
 | **Behavioral Round** | In Development | Scenario-based assessments with AI evaluation |
 | **Interview Round** | ✅ Live | Full-featured technical interviews with anti-cheating and code execution |
 
+![home_page](./assets/home.png)
+![all_round](./assets/all_round.png)
+![face_monitoring](./assets/face_detection.png)
+![Code_editor](./assets/editor.png)
+
 ### Advanced Anti-Cheating System
 
 Our state-of-the-art proctoring system ensures interview integrity through:
