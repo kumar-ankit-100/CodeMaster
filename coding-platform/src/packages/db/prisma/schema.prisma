@@ -1,0 +1,180 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                 String              @id @default(cuid())
+  email              String              @unique
+  name               String?
+  token              String?
+  password           String
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  role               UserRole            @default(USER)
+  contestPoints      ContestPoints[]
+  contestSubmissions ContestSubmission[]
+  submissions        Submission[]
+}
+
+model Contest {
+  id                 String              @id @default(cuid())
+  title              String
+  description        String
+  startTime          DateTime
+  hidden             Boolean             @default(true)
+  endTime            DateTime
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  leaderboard        Boolean             @default(false)
+  problems           ContestProblem[]
+  contestSubmissions ContestSubmission[]
+  submissions        Submission[]
+  userId             String?
+  interviewSessionId String?
+}
+
+model ContestProblem {
+  id        String
+  contestId String
+  problemId String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  index     Int
+  solved    Int      @default(0)
+  contest   Contest  @relation(fields: [contestId], references: [id])
+  problem   Problem  @relation(fields: [problemId], references: [id])
+
+  @@id([contestId, problemId])
+}
+
+model Problem {
+  id                 String              @id @default(cuid())
+  title              String
+  description        String
+  hidden             Boolean             @default(true)
+  slug               String              @unique
+  solved             Int                 @default(0)
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  difficulty         Difficulty          @default(MEDIUM)
+  contests           ContestProblem[]
+  contestSubmissions ContestSubmission[]
+  defaultCode        DefaultCode[]
+  submissions        Submission[]
+  examples           Json? // 👈 new field
+  constraints        Json? // 👈 new field
+  inputTestCase      String
+  outputTestCase     String
+}
+
+model DefaultCode {
+  id         String   @id @default(cuid())
+  languageId Int
+  problemId  String
+  partialBoilerplate String
+  fullBoilerplate String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  language   Language @relation(fields: [languageId], references: [id])
+  problem    Problem  @relation(fields: [problemId], references: [id])
+
+  @@unique([problemId, languageId])
+}
+
+model Submission {
+  id              String           @id @default(cuid())
+  problemId       String
+  userId          String
+  languageId      Int
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  code            String
+  fullCode        String
+  activeContestId String?
+  status          SubmissionResult @default(PENDING)
+  memory          Int?
+  time            Float?
+  activeContest   Contest?         @relation(fields: [activeContestId], references: [id])
+  language        Language         @relation(fields: [languageId], references: [id])
+  problem         Problem          @relation(fields: [problemId], references: [id])
+  user            User             @relation(fields: [userId], references: [id])
+  testcases       TestCase[]
+}
+
+model Language {
+  id          Int           @id @default(autoincrement())
+  name        String
+  judge0Id    Int           @unique
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  DefaultCode DefaultCode[]
+  Submission  Submission[]
+}
+
+model TestCase {
+  id               String         @id @default(cuid())
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  status           TestCaseResult @default(PENDING)
+  index            Int
+  submissionId     String
+  memory           Int?
+  time             Float?
+  judge0TrackingId String         @unique
+  submission       Submission     @relation(fields: [submissionId], references: [id])
+}
+
+model ContestSubmission {
+  id           String  @id @default(cuid())
+  userId       String
+  problemId    String
+  contestId    String
+  submissionId String
+  points       Int
+  contest      Contest @relation(fields: [contestId], references: [id])
+  problem      Problem @relation(fields: [problemId], references: [id])
+  user         User    @relation(fields: [userId], references: [id])
+
+  @@unique([userId, problemId, contestId])
+}
+
+model ContestPoints {
+  id        String @id @default(cuid())
+  contestId String
+  userId    String
+  points    Int
+  rank      Int
+  user      User   @relation(fields: [userId], references: [id])
+
+  @@unique([contestId, userId])
+}
+
+enum TestCaseResult {
+  AC
+  FAIL
+  TLE
+  COMPILATION_ERROR
+  PENDING
+}
+
+enum SubmissionResult {
+  AC
+  REJECTED
+  PENDING
+}
+
+enum UserRole {
+  ADMIN
+  USER
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}

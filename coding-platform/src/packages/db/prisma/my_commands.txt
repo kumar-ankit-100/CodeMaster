@@ -1,0 +1,1000 @@
+  465  ls
+  466  python3 -m venv leetcode_venv
+  467  source leetcode_venv/bin/activate
+  468  pip list
+  469  pip install --upgrade pip
+  470  pip install leetscrape
+  471  python3 a.py
+  472  leetscrape list
+  473  leetscrape
+  474  pip list | grep -E "numpy|pandas"
+  475  pip uninstall numpy pandas -y
+  476  pip install numpy==1.26.4 pandas==2.2.1
+  477  # Exit the current venv
+  478  deactivate
+  479  # Remove the old venv
+  480  rm -rf ~/some\ try/leetcode_venv
+  481  # Create a new venv
+  482  python3 -m venv ~/some\ try/leetcode_venv
+  483  # Activate it
+  484  source ~/some\ try/leetcode_venv/bin/activate
+  485  # Install packages
+  486  pip install --upgrade pip
+  487  pip install numpy==1.26.4 pandas==2.2.1 leetscrape
+  488  leetscrape
+  489  deactivate
+  490  rm -rf ~/some\ try/leetcode_venv
+  491  python3 -m venv ~/some\ try/leetcode_venv
+  492  source ~/some\ try/leetcode_venv/bin/activate
+  493  pip install --upgrade pip
+  494  pip install numpy==1.26.4 pandas==2.2.1 leetscrape
+  495  pip install numpy==1.26.4 pandas==1.4.4 leetscrape
+  496  pip list | grep -E "numpy|pandas|leetscrape"
+  497  pip list
+  498  pip install numpy==1.26.4 pandas==1.5.3 leetscrape
+  499  pip list
+  500  leetscrape --help
+  501  leetscrape question --title-slug two-sum --output two_sum.json
+  502  leetscrape list
+  503  leetscrape question --out two_sum.json 1
+  504  leetscrape question --out . 1
+  505  pip install json
+  506  python3 a.py
+  507  "/home/ankit/some try/leetcode_venv/bin/python" "/home/ankit/some try/a.py"
+  508  python3 a.pyt
+  509  python3 a.py
+  510  /bin/python3 /home/ankit/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/ankit/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+  511  docker pull postgres
+  512  $ docker run --name first-postgres -e POSTGRES_PASSWORD=12345 -d postgres
+  513  docker run --name first-postgres -e POSTGRES_PASSWORD=12345 -d postgres
+  514  docekr ps
+  515  docker ps
+  516  docker run --name second-postgres -e POSTGRES_PASSWORD=12345 -p 5432:5432 -d postgres 
+  517  ps
+  518  docekr ps
+  519  docker ps
+  520  docker inspect 8a558fb94170
+  521  sudo apt-get update
+  522  sudo apt-get install ./docker-desktop-amd64.deb
+  523  ls
+  524  cd Downloads/
+  525  sudo apt-get update
+  526  sudo apt-get install ./docker-desktop-amd64.deb
+  527  sudo apt-get remove docker docker-engine docker.io containerd runc
+  528  sudo apt-get autoremove
+  529  sudo apt-get autoclean
+  530  cd ..
+  531  mkdir docker
+  532  cd docker/
+  533  ls
+  534  cd ..
+  535  ls
+  536  cd .
+  537  cd docker/
+  538  ls
+  539  sudo apt-get update
+  540  sudo apt-get install ca-certificates curl gnupg
+  541  sudo install -m 0755 -d /etc/apt/keyrings
+  542  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/keyrings/docker.asc > /dev/null
+  543  sudo chmod a+r /etc/apt/keyrings/docker.asc
+  544  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  545    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  546  sudo apt-get update
+  547  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  548  sudo dpkg -i docker-desktop-amd64.deb
+  549  sudo apt-get install -f
+  550  sudo dpkg -i docker-desktop-amd64.deb
+  551  docker --version
+  552  docker-compose --version
+  553  sudo usermod -aG docker $USER
+  554  newgrp docker
+  555  systemctl --user start docker-desktop
+  556  sudo apt update
+  557  apt upgrade
+  558  sudo apt upgrade
+  559  sudo apt update
+  560  sudo nano /etc/default/grub
+  561  sudo cat /etc/default/grub
+  562  sudo update grub
+  563  sudo update-grub
+  564  sudo reboot
+  565  git clone https://github.com/kumar-ankit-100/algorithmic-arena.git
+  566  yarn install
+  567  sudo apt install cmdtest
+  568  yarn install
+  569  yarn dev
+  570  npm run
+  571  cd coding-platform/
+  572  npm run
+  573  npm start
+  574  next start
+  575  npm run dev
+  576  npx shadcn-ui@latest add card
+  577  npx shadcn@latest add card
+  578  npm run dev
+  579  npx shadcn@latest add select
+  580  npm run dev
+  581  npx shadcn@latest add input label
+  582  npm run dev
+  583  tree src
+  584  npm run dev
+  585  tree src
+  586  npm run dev
+  587  git init 
+  588  git status
+  589  git add .
+  590  git status
+  591  git commit -m " frontend complete until the coding round"
+  592  git status
+  593  git commit -m " frontend complete until the coding round"
+  594  git config --global user.email "kumar.ankitr0321@gmail.com"
+  595  git config --global user.name "Ankit kumar"
+  596  git commit -m " frontend complete until the coding round"
+  597  git status
+  598  git branch -M main
+  599  git remote add origin https://github.com/kumar-ankit-100/CodeMaster.git
+  600  git push -u origin main
+  601  npm run dev
+  602  ls
+  603  npm init -y
+  604  npm -i express pg dotenv cors joi
+  605  npm install express pg dotenv cors joi
+  606  npm i --save-dev nodempn
+  607  npm i --save-dev nodemon
+  608  npm run dev
+  609  node db.js
+  610  npm run dev
+  611  tree src 
+  612  npm run dev
+  613  sudo apt install docker
+  614  docker
+  615  docker -v
+  616  docker-compose -v
+  617  docker-compose
+  618  sudo apt  install docker-compose
+  619  docker-compose -v
+  620  wget https://github.com/judge0/judge0/releases/download/v1.13.1/judge0-v1.13.1.zip
+  621  unzip judge0-v1.13.1.zip
+  622  unzip judge0-v1.13.1
+  623  unzip judge0-v1.13.1.zip
+  624  cd a
+  625  unzip judge0-v1.13.1.zip
+  626  cd ..
+  627  docker
+  628  docker ps
+  629  nano judge0.conf 
+  630  ls
+  631  docker-compose up -d db redis
+  632  sudo systemctl status docker
+  633  sudo systemctl enable docker
+  634  sudo systemctl restart docker
+  635  ls -l /var/run/docker.sock
+  636  docker-compose up -d db redis
+  637  docker -v
+  638  sudo systemctl status docker
+  639  docker ps
+  640  sudo docker ps
+  641  sudo docker-compose up -d db redis
+  642  sleep 10s
+  643  docker-compose up -d
+  644  sudo docker-compose up -d
+  645  docker ps
+  646  sudo docker-compose up -d
+  647  cd coding-platform/
+  648  npm run dev
+  649  docer -v
+  650  sudo docker -v
+  651  sudo docker ps
+  652  stat /sys/fs/cgroup/memory
+  653  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  654  sudo mount -t cgroup -o memory none /sys/fs/cgroup/memory
+  655  cat /proc/cgroups | grep memory
+  656  cat /proc/cgroups
+  657  sudo mkdir -p /sys/fs/cgroup/memory/judge0
+  658  sudo chown -R 1000:1000 /sys/fs/cgroup/memory/judge0
+  659  sudo docker-compose down
+  660  sudo docker-compose up -d
+  661  cd judge0-v1.13.1/
+  662  sudo docker-compose down
+  663  sudo docker-compose up -d
+  664  sudo docker ps
+  665  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  666  ls -la docker-compose.override.yml
+  667  sudo docker exec -it judge0-v1131_workers_1 bash
+  668  sudo docker-compose down
+  669  sudo docker-compose up -d
+  670  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  671  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  672  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  673  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  674  ls -la /sys/fs/cgroup/
+  675  ls -la /sys/fs/cgroup/memory/
+  676  sudo docker ps
+  677  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  678  sudo systemctl stop docker
+  679  sudo mkdir -p /etc/docker
+  680  sudo nano /etc/docker/daemon.json
+  681  sudo cat /etc/docker/daemon.json
+  682  sudo systemctl daemon-reexec
+  683  sudo systemctl restart docker
+  684  docker-compose down
+  685  docker-compose up -d
+  686  docker-compose down
+  687  docker-compose up -d
+  688  sudo systemctl status docker
+  689  docker ps
+  690  sudo docker ps
+  691  curl http://localhost:2358
+  692  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  693  sudo docker-compose down
+  694  sudo cat /etc/docker/daemon.json
+  695  sudo systemctl status docker
+  696  sudo systemctl stop docker
+  697  sudo systemctl status docker
+  698  sudo systemctl daemon-reexec
+  699  sudo systemctl restart docker
+  700  sudo systemctl status docker
+  701  curl http://localhost:2358
+  702  sudo docker-compose up -d
+  703  curl http://localhost:2358
+  704  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true"      -H "Content-Type: application/json"      -d '{"source_code": "console.log(\"hello world\")", "language_id": 63, "stdin": ""}'
+  705  docker volume ls
+  706  sudo docker volume ls
+  707  ls /sys/fs/cgroup/memory/
+  708  stat -fc %T /sys/fs/cgroup/
+  709  sudo cat /etc/default/grub
+  710  stat -fc %T /sys/fs/cgroup/
+  711  docker ps
+  712  sudo docker ps
+  713  sudo systemctl status fa8ebb46acf8
+  714  sudo systemctl status workers_1
+  715  sudo systemctl status judge0
+  716  which isolate
+  717  sudo docker logs judge0-v1131_server_1
+  718  sudo docker logs judge0-v1131_workers_1
+  719  sudo docker-compose down
+  720  sudo docker-compose up -d
+  721  sudo docker ps
+  722  sudo docker logs judge0-v1131_server_1
+  723  sudo docker logs judge0-v1131_workers_1
+  724  sudo docker exec -it judge0-v1131_workers_1 bash
+  725  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  726  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  727  ls /sys/fs/cgroup/memory/
+  728  sudo docker exec judge0-v1131_workers_1 ls /sys/fs/cgroup/memory/
+  729  sudo docker exec judge0-v1131_workers_1 ls -ld /sys/fs/cgroup/memory/
+  730  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  731  ls /sys/fs/cgroup/memory/
+  732  sudo docker exec judge0-v1131_workers_1 ls /sys/fs/cgroup/memory/
+  733  sudo docker exec -it judge0-v1131_workers_1 bash
+  734  isolate --box-id=17 --init
+  735  /var/local/lib/isolate/17
+  736  sudo isolate --box-id=17 --init
+  737  sudo docker exec -it judge0-v1131_workers_1 bash
+  738  ls /sys/fs/cgroup/memory/
+  739  sudo ls /sys/fs/cgroup/memory/
+  740  isolate --box-id=17 --run -- /bin/echo "test"
+  741  Caught fatal signal 11
+  742  sudo docker exec -it judge0-v1131_workers_1 bash
+  743  sudo docker exec judge0-v1131_workers_1 chmod -R u+w /sys/fs/cgroup/memory/
+  744  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  745  sudo docker-compose down
+  746  sudo docker-compose up -d
+  747  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  748  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  749  cat /proc/mounts | grep cgroup | grep memory
+  750  sudo cat /proc/mounts | grep cgroup | grep memory
+  751  sudo mount -t cgroup -o memory none /sys/fs/cgroup/memory
+  752  sudo docker info | grep -i cgroup
+  753  docker ps
+  754  sudo docker ps
+  755  sudo docker exec -it judge0-v1131_workers_1 ls -la /sys/fs/cgroup/memory/
+  756  sudo docker exec -it judge0-v1131_workers_1 mkdir -p /sys/fs/cgroup/memory/box-29
+  757  sudo chmod +x initialize-cgroups.sh
+  758  sudo docker-compose down
+  759  sudo chmod +x initialize-cgroups.sh
+  760  sudo docker-compose up -d
+  761  sudo docker-compose ps
+  762  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  763  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ sudo chmod +x initialize-cgroups.sh
+  764  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ sudo docker-compose down
+  765  Stopping judge0-v1131_workers_1 ... done
+  766  Stopping judge0-v1131_redis_1   ... done
+  767  Stopping judge0-v1131_server_1  ... done
+  768  Stopping judge0-v1131_db_1      ... done
+  769  Removing judge0-v1131_workers_1 ... done
+  770  Removing judge0-v1131_redis_1   ... done
+  771  Removing judge0-v1131_server_1  ... done
+  772  Removing judge0-v1131_db_1      ... done
+  773  Removing network judge0-v1131_default
+  774  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ sudo chmod +x initialize-cgroups.sh
+  775  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ sudo docker-compose up -d
+  776  Creating network "judge0-v1131_default" with the default driver
+  777  Creating judge0-v1131_db_1      ... done
+  778  Creating judge0-v1131_redis_1   ... done
+  779  Creating judge0-v1131_server_1  ... done
+  780  Creating judge0-v1131_workers_1 ... done
+  781  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ sudo docker-compose ps
+  782  ----------------------------------------------------------------------------------------------------------
+  783  judge0-v1131_db_1        docker-entrypoint.sh postgres    Up      5432/tcp                                
+  784  judge0-v1131_redis_1     docker-entrypoint.sh bash  ...   Up      6379/tcp                                
+  785  judge0-v1131_server_1    /api/docker-entrypoint.sh  ...   Up      0.0.0.0:2358->2358/tcp,:::2358->2358/tcp
+  786  judge0-v1131_workers_1   /api/docker-entrypoint.sh  ...   Up      2358/tcp                                
+  787  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  788  {"stdout":null,"time":"0.0","memory":0,"stderr":"Cannot write /sys/fs/cgroup/memory/box-31/memory.limit_in_bytes: No such file or directory\n","token":"1dcd9db6-6fce-45c9-a074-4c0156167444","compile_output":null,"message":"Cannot write /sys/fs/cgroup/memory/box-31/memory.limit_in_bytes: No such file or directory","status":{"id":13,"description":"Internal Error"}}ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ 
+  789  sudo docker-compose logs workers | grep initialize-cgroups
+  790  sudo chmod +x initialize-cgroups.sh
+  791  sudo docker-compose down
+  792  sudo docker-compose up -d
+  793  sudo chmod +x initialize-cgroups.sh
+  794  sudo docker-compose down
+  795  sudo chmod +x initialize-cgroups.sh
+  796  sudo docker-compose down
+  797  sudo docker-compose up -d
+  798  sudo docker-compose logs workers | grep "Initializing cgroups"
+  799  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  800  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ sudo docker-compose logs workers | grep "Initializing cgroups"
+  801  workers_1  | Initializing cgroups for Judge0...
+  802  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  803  curl: (7) Failed to connect to localhost port 2358 after 0 ms: Couldn't connect to server
+  804  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  805  curl: (7) Failed to connect to localhost port 2358 after 0 ms: Couldn't connect to server
+  806  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  807  curl: (7) Failed to connect to localhost port 2358 after 0 ms: Couldn't connect to server
+  808  ankit@ankit-HP-Pavilion-Laptop-15-cs3xxx:~/judge0/judge0-v1.13.1$ 
+  809  sudo docker-compose ps
+  810  curl: (7) Failed to connect to localhost port 2358 after 0 ms: Couldn't connect to server
+  811  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  812  sudo docker-compose down
+  813  sudo docker-compose up -d
+  814  sudo docker-compose ps
+  815  curl -X POST "http://localhost:2358/submissions/?base64_encoded=false&wait=true" -H "Content-Type: application/json" -d '{"source_code": "print(\"hello\")", "language_id": 71, "stdin": ""}'
+  816  cd ~/judge0/judge0-v1.13.1  # Ya jahan bhi tu Judge0 clone kiya tha
+  817  sudo docker-compose down
+  818  sudo docker volume ls
+  819  sudo docker rmi judge0/judge0:1.13.1 redis:7.2.4 postgres:16.2
+  820  sudo docker volume ls
+  821  sudo docker volume prune -f
+  822  sudo docker volume ls
+  823  sudo docker volume rm judge0-v1131_data
+  824  sudo docker volume ls
+  825  cd ~
+  826  rm -rf judge0
+  827  sudo systemctl restart docker
+  828  docker-compose --version
+  829  docker compose up -d db redis
+  830  sudo systemctl status docker
+  831  sudo apt purge docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  832  sudo rm -rf /var/lib/docker
+  833  sudo apt update
+  834  sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  835  sudo docker ps
+  836  sudo docker-compose up -d db redis
+  837  cd judge0-v1.13.1
+  838  docker-compose up -d db redis
+  839  sleep 10s
+  840  docker-compose up -d
+  841  sleep 5s
+  842  docker-compose up -d db redis
+  843  cd ..
+  844  docker-compose up -d db redis
+  845  cd judge0-v1.13.1/
+  846  sudo docker-compose up -d db redis
+  847  sleep 10s
+  848  sudo docker-compose up -d
+  849  sudo docker-compose up -d db redis
+  850  sudo docker-compose up -d
+  851  sudo nano /etc/default/grub
+  852  sudo update-grub
+  853  sudo reboot
+  854  sudo docker ps
+  855  docker -v
+  856  docker-desktop
+  857  docker-compose
+  858  docker-compose -v
+  859  cat /etc/default/grub
+  860  sudo apt install lxd
+  861  lxd init  # answer with defaults
+  862  lxc launch ubuntu:22.04 judge0-env
+  863  lxc exec judge0-env -- bash
+  864  sudo usermod -aG docker $USER
+  865  newgrp docker
+  866  sudo apt update
+  867  sudo apt upgrade
+  868  sudo apt update
+  869  sudo cat /etc/default/grub
+  870  wget https://github.com/judge0/judge0/releases/download/v1.13.1/judge0-v1.13.1.zip
+  871  unzip judge0-v1.13.1.zip
+  872  cd judge0-v1.13.1/
+  873  docker-compose up -d db redis
+  874  sleep 10s
+  875  docker-compose up -d
+  876  sleep 5s
+  877  docker-compose up -d db redis
+  878  sudo systemctl status docker
+  879  docekr-compose
+  880  doceker-compose
+  881  docker-compose
+  882  docker-compose up -d db redis
+  883  ls
+  884  cat docker-compose.yml 
+  885  sudo systemctl start docker
+  886  docker-compose up -d db redis
+  887  sudo systemctl status docker
+  888  sudo systemctl enable docker
+  889  docker-compose up -d db redis
+  890  docker run hello-world
+  891  sudo docker run hello-world
+  892  sudo docker ps
+  893  ls -l /var/run/docker.sock
+  894  sudo usermod -aG docker $USER
+  895  newgrp docker
+  896  ls
+  897  sudo cat /etc/default/grub
+  898  docekr ps
+  899  sudo docker ps
+  900  sudo systemctl restart docker
+  901  docker-compose down
+  902  sudo docker-compose down
+  903  sudo docker ps
+  904  sudo docker-compose up -d db redis
+  905  sudo docker ps
+  906  docker run hello-world
+  907  sudo docker-compose up -d db redis
+  908  sudo docker-compose up -d 
+  909  sudo docker-compose up -d db redis
+  910  sleep 10s
+  911  sudo docker-compose up -d
+  912  docker ps
+  913  sudo docker ps
+  914  sudo docker exec -it judge0-v1131_workers_1 bash
+  915  cd ~/judge0/judge0-v1.13.1/workers
+  916  sudo cd ~/judge0/judge0-v1.13.1/workers
+  917  cd ~/judge0/judge0-v1.13.1/workers
+  918  find . -name "languages*"
+  919  gcc
+  920  gcc -v
+  921  echo '#include <stdio.h>\nint main() { char name[10]; scanf("%s", name); printf("hello, %s\n", name); return 0; }' > test.c
+  922  gcc test.c -o test
+  923  ./test
+  924  echo '#include <stdio.h>\nint main() { char name[10]; scanf("%s", name); printf("hello, %s\n", name); return 0; }' > test.c
+  925  gcc test.c
+  926  echo '#include <stdio.h> int main() { char name[10]; scanf("%s", name); printf("hello, %s\n", name); return 0; }' > test.c
+  927  gcc test.c
+  928  sudo docker ps
+  929  docker exec -it 333c83deb430 bash
+  930  sudo docker exec -it 333c83deb430 bash
+  931  curl http://localhost:2358/about
+  932  sudo docker logs 333c83deb430
+  933  curl -X POST   http://localhost:2358/submissions   -H 'Content-Type: application/json'   -d '{
+  934      "source_code": "#include <stdio.h>\n\nint main() { return 0; }",
+  935      "language_id": 50
+  936    }'
+  937  sudo nano /etc/docker/daemon.json
+  938  sudo systemctl restart docker
+  939  mount | grep cgroup
+  940  sudo ln -s /path/to/existing/memory /sys/fs/cgroup/memory
+  941  sudo docker-compose down
+  942  sudo docker run -e DISABLE_ISOLATE=1 -p 2358:2358 judge0/judge0:1.13.1
+  943  sudo docker ps
+  944  sudo docker-compose up -d 
+  945  sudo docker run -e DISABLE_ISOLATE=1 -p 2358:2358 judge0/judge0:1.13.1
+  946  sudo docker ps
+  947  sudo docker-compose down
+  948  sudo docker run -e DISABLE_ISOLATE=1 -p 2358:2358 judge0/judge0:1.13.1
+  949  ssh
+  950  ec2-51-21-168-114.eu-north-1.compute.amazonaws.com
+  951  cd ..
+  952  ls
+  953  ssh -i "judge0.pem" ubuntu@ec2-16-16-211-33.eu-north-1.compute.amazonaws.com
+  954  sudo ssh -i "judge0.pem" ubuntu@ec2-16-16-211-33.eu-north-1.compute.amazonaws.com
+  955  cd judge0-v1.13.1/
+  956  sudo docker exec -it judge0-v1131_workers_1 bash
+  957  sudo docker volume ls
+  958  docker volume inspect db-data
+  959  sudo docker volume inspect db-data
+  960  sudo docker volume inspect judge0-v1131_data
+  961  docker exec -it <container_name_or_id> gcc --version
+  962  sudo docker exec -it <container_name_or_id> gcc --version
+  963  sudo mkdir /sys/fs/cgroup/memory
+  964  sudo mount -t cgroup -o memory memory /sys/fs/cgroup/memory
+  965  sudo dockerd --exec-opt native.cgroupdriver=cgroupfs
+  966  curl -X POST http://localhost:2358/submissions   -H 'Content-Type: application/json'   -d '{"source_code":"int main(){return 0;}","language_id":50}'
+  967  sudo docker-compose down -v
+  968  sudo docker-compose up -d
+  969  curl -X POST http://localhost:2358/submissions   -H 'Content-Type: application/json'   -d '{"source_code":"#include <stdio.h>\nint main(){printf(\"Hello\");return 0;}","language_id":50}'
+  970  sudo docker-compose exec db psql -U judge0 -d judge0
+  971  sudo docker-compose exec workers bash -c "isolate --check"
+  972  sudo docker-compose exec workers bash -c "apt-get update && apt-get install -y isolate"
+  973  sudo docker-compose exec workers bash -c "ls -la /var/local/lib/isolate"
+  974  BOX_ROOT=/tmp/isolate
+  975  sudo docker-compose down
+  976  sudo docker volume prune  # This will remove all unused volumes
+  977  sudo mkdir -p /tmp/isolate
+  978  sudo chmod 777 /tmp/isolate
+  979  sudo docker-compose up -d
+  980  # Check if workers can access the directory
+  981  sudo docker-compose exec workers bash -c "ls -la /tmp/isolate"
+  982  # Test a simple submission
+  983  curl -X POST http://localhost:2358/submissions   -H 'Content-Type: application/json'   -d '{"source_code":"int main(){return 0;}","language_id":50}'
+  984  sudo docker-compose down -v
+  985  sudo rm -rf /tmp/isolate
+  986  sudo mkdir -p /tmp/isolate
+  987  sudo chmod 777 /tmp/isolate
+  988  sudo docker-compose up -d
+  989  # Check if workers can access the directory
+  990  sudo docker-compose exec workers bash -c "ls -la /tmp/isolate"
+  991  # Test a simple submission
+  992  curl -X POST http://localhost:2358/submissions   -H 'Content-Type: application/json'   -d '{"source_code":"int main(){return 0;}","language_id":50}'
+  993  sudo docker-compose ps | grep redis
+  994  sudo docker-compose exec workers bash -c "redis-cli -h redis -a \$REDIS_PASSWORD ping"
+  995  sudo docker-compose exec db psql -U judge0 -d judge0 -c "SELECT 1"
+  996  sudo docker-compose exec server rails db:migrate:status
+  997  sudo docker-compose exec workers bash -c "apt-get update && apt-get install -y redis-tools"
+  998  sudo docker-compose down
+  999  sudo docker system prune -a -f --volumes
+ 1000  sudo docker ps
+ 1001  sudo docker-compose up -d --force-recreate
+ 1002  sudo docker-compose exec workers bash -c "apt-get update && apt-get install -y redis-tools"
+ 1003  sudo docker ps
+ 1004  sudo docker-compose up -d 
+ 1005  sudo docker ps
+ 1006  npm start
+ 1007  npm install
+ 1008  npm run dev
+ 1009  cd ..
+ 1010  ls
+ 1011  cd Backend_for_learning_using_postgress_express/
+ 1012  rm -rf
+ 1013  ls
+ 1014  rd -rf
+ 1015  mv -rf
+ 1016  ls
+ 1017  mv -rf *
+ 1018  rm -rf *
+ 1019  ls
+ 1020  rm .env
+ 1021  ls
+ 1022  git clone https://github.com/dmalvia/Express_Postgresql_Docker_REST_API_Project.git
+ 1023  cd Express_Postgresql_Docker_REST_API_Project/
+ 1024  ls
+ 1025  npm install
+ 1026  npm run dev
+ 1027  node index.ts
+ 1028  cd boilerplate-generator/
+ 1029  node index.ts
+ 1030  ls
+ 1031  cd src/
+ 1032  node index.ts
+ 1033  npx ts-node index.ts
+ 1034  ls
+ 1035  cd ..
+ 1036  tree boilerplate-generator/
+ 1037  npm init -y
+ 1038  cd boilerplate-generator/
+ 1039  npm init -y
+ 1040  npm install -D typescript ts-node @types/node
+ 1041  npx tsc --init
+ 1042  npx ts-node src/index.ts
+ 1043  cd ..
+ 1044  npx prisma studio
+ 1045  npm install prisma --save-dev
+ 1046  npm install @prisma/client
+ 1047  npx prisma init
+ 1048  npx prisma migrate dev --name init
+ 1049  sudo npx prisma migrate dev --name init
+ 1050  npx prisma migrate dev --name init
+ 1051  node index.js 
+ 1052  node index.ts
+ 1053  node index.js 
+ 1054  npx tsx src/scripts/seed.ts
+ 1055  ls
+ 1056  npx tsx seed.ts
+ 1057  npx tsx updateQuestion.ts 
+ 1058  cd ..
+ 1059  npm install next-auth
+ 1060  npm i 
+ 1061  npm run dev
+ 1062  npm install react-toastify
+ 1063  npm run dev
+ 1064  tree src
+ 1065  npm run dev
+ 1066  npm isntall bcrypt
+ 1067  npm run dev
+ 1068  tree src/
+ 1069  npm run dev
+ 1070  npm install axios
+ 1071  npx shadcn-ui@latest add table
+ 1072  npx shadcn@latest add table
+ 1073  npm run dev
+ 1074  tree src
+ 1075  npm run dev
+ 1076  npm install react-markdown
+ 1077  npm run dev
+ 1078  npm install remark-gfm
+ 1079  npm run dev
+ 1080  http://localhost:3001/contest/1/problem/1
+ 1081  lsof -i :3000
+ 1082  kill -9 7977
+ 1083  lsof -i :3000
+ 1084  npm run dev
+ 1085  lsof -i :3000
+ 1086  kill -9 12345
+ 1087  kill -9 $(lsof -t -i:3000)
+ 1088  npm run dev
+ 1089  next dev --turbopack --port 3001
+ 1090  lsof -i :3000
+ 1091  lsof -i :3000 | grep LISTEN
+ 1092  netstat -tulpn | grep 3000
+ 1093  sudo fuser -k 3000/tcp
+ 1094  npm run dev
+ 1095  npm run dev
+ 1096  cd coding-platform/
+ 1097  npm run dev
+ 1098  npm install prisma --save-dev
+ 1099  npm install @prisma/client
+ 1100  npx prisma init
+ 1101  npm install zod
+ 1102  npx prisma migrate dev --schema=src/packages/db/prisma/schema.prisma
+ 1103  npx prisma generate --schema=src/packages/db/prisma/schema.prisma
+ 1104  sudo apt install pgadmin4
+ 1105  curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
+ 1106  sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list'
+ 1107  sudo apt update
+ 1108  docker --version
+ 1109  docker-compose --version
+ 1110  sudo snap install docker-desktop
+ 1111  sudo /usr/pgadmin4/bin/setup-web.sh
+ 1112  sudo apt install pgadmin4-web
+ 1113  sudo /usr/pgadmin4/bin/setup-web.sh
+ 1114  sudo lsof -i :5432
+ 1115  sudo netstat -tuln | grep 5432
+ 1116  sudo lsof -i :5432
+ 1117  sudo systemctl stop postgresql
+ 1118  docker ps
+ 1119  sudo docker ps
+ 1120  sudo systemctl stop docker 
+ 1121  sudo systemctl stop docker.socket
+ 1122  sudo systemctl status docker 
+ 1123  sudo systemctl status postgresql
+ 1124  sudo ss -tnlp | grep 5432
+ 1125  sudo nano /etc/postgresql/14/main/postgresql.conf
+ 1126  sudo cat /etc/postgresql/14/main/postgresql.conf
+ 1127  ls /etc/postgresql/
+ 1128  sudo cat /etc/postgresql/<version>/main/postgresql.conf
+ 1129  psql --version
+ 1130  sudo systemctl start postgresql
+ 1131  sudo systemctl enable postgresql
+ 1132  sudo apt update
+ 1133  sudo apt install postgresql
+ 1134  sudo systemctl start postgresql
+ 1135  sudo systemctl enable postgresql
+ 1136  sudo -u postgres psql
+ 1137  psql -U kumar.ankitr0321 -h localhost -W
+ 1138  sudo -u postgres psql
+ 1139  psql -U postgres
+ 1140  CREATE DATABASE your_db_name;
+ 1141  psql -U postgres
+ 1142  sud opsql -U postgres
+ 1143  sudo psql -U postgres
+ 1144  sudo systemctl status postgresql
+ 1145  sudo -i -u postgres
+ 1146  psql
+ 1147  sudo systemctl status postgresql
+ 1148  sudo systemctl start postgresql
+ 1149  sudo systemctl status postgresql
+ 1150  sudo nano /etc/postgresql/*/main/pg_hba.conf
+ 1151  sudo systemctl restart postgresql
+ 1152  sudo systemctl status postgresql
+ 1153  npm run dev
+ 1154  cd coding-platform/
+ 1155  npm run dev
+ 1156  tree 
+ 1157  cd src/
+ 1158  cat FullProblemDefinitionGenerator.ts 
+ 1159  cat index.ts 
+ 1160  cat ProblemDefinitionGenerator.ts 
+ 1161  cd ..
+ 1162  npm i 
+ 1163  npm run dev
+ 1164  npm turvo dev
+ 1165  npm run dev
+ 1166  npm install
+ 1167  next dev
+ 1168  npm next dev
+ 1169  npm dev
+ 1170  cd coding-platform/
+ 1171  cd src/
+ 1172  cd submission-webhook/
+ 1173  node install
+ 1174  npm install
+ 1175  cd ..
+ 1176  npm run dev
+ 1177  ls
+ 1178  cd submission-webhook/
+ 1179  npm install
+ 1180  tree -I node_modules/
+ 1181  npm install
+ 1182  cd ..
+ 1183  npm install
+ 1184  cd coding-platform/
+ 1185  npm install
+ 1186  mkdir -p ~/CodeMaster/coding-platform/submission-webhook/src/types
+ 1187  touch ~/CodeMaster/coding-platform/submission-webhook/src/types/schema.ts
+ 1188  mkdir -p ~/CodeMaster/coding-platform/submission-webhook/prisma
+ 1189  cp ~/CodeMaster/coding-platform/prisma/schema.prisma ~/CodeMaster/coding-platform/submission-webhook/prisma/
+ 1190  cd submission-webhook/
+ 1191  npm install
+ 1192  npx prisma generate
+ 1193  npm install
+ 1194  npm run dev
+ 1195  cd ..
+ 1196  npm run dev
+ 1197  cd coding-platform/
+ 1198  npm run dev
+ 1199  npm run dev
+ 1200  cd submission-webhook/
+ 1201  npm run dev
+ 1202  ngrok http http://localhost:3001
+ 1203  ps aux | grep rake
+ 1204  pkill -f 'rake resque:work'
+ 1205  ps aux | grep rake
+ 1206  kill -9 $(ps aux | grep '[r]ake resque:work' | awk '{print $2}')
+ 1207  ps aux | grep rake
+ 1208  sudo lsof -i -nP | grep 6379
+ 1209  cat /etc/rc.local
+ 1210  grep -r "rake" ~/.bashrc ~/.zshrc ~/.profile ~/.bash_profile
+ 1211  ls ~/.config/autostart
+ 1212  sudo ls ~/.config/autostart
+ 1213  kill -9 $(pgrep -f 'rake resque:work')
+ 1214  killall redis-server
+ 1215  sudo kill -9 $(pgrep -f 'rake resque:work')
+ 1216  sudo killall redis-server
+ 1217  ps aux | grep rake
+ 1218  which rake
+ 1219  sudo systemctl stop redis
+ 1220  sudo systemctl disable redis
+ 1221  pkill -f 'rake resque:work'
+ 1222  ps aux | grep rake
+ 1223  ps aux | grep 'rake resque:work'
+ 1224  sudo kill -9 734605 734606 734607 734608 734609 734610 734611 734612 734613 734614 734615 734616 734617 734618 734619 734620
+ 1225  sudo rm -f /usr/local/ruby-2.7.0/bin/rake
+ 1226  sudo gem uninstall rake
+ 1227  sudo rm -rf /etc/redis/
+ 1228  sudo rm -rf /var/lib/redis/
+ 1229  sudo rm -f /usr/local/bin/redis-server
+ 1230  sudo rm -f /usr/local/bin/redis-cli
+ 1231  sudo rm -rf /usr/local/etc/redis.conf
+ 1232  crontab -l
+ 1233  ps aux | grep -E 'rake|redis'
+ 1234  ps aux | grep rake
+ 1235  which rake
+ 1236  which redis-server
+ 1237  rvm implode
+ 1238  /usr/local/ruby-2.7.0/bin/ruby /usr/local/ruby-2.7.0/bin/rake resque:work
+ 1239  ps aux | grep 'rake resque:work' | grep -v grep | awk '{print $2}' | xargs sudo kill -9
+ 1240  dnsmasq 734354 0.2 0.0 redis-server *:6379
+ 1241  sudo systemctl stop redis
+ 1242  sudo systemctl disable redis
+ 1243  sudo kill -9 734354
+ 1244  sudo rm -rf /usr/local/ruby-2.7.0
+ 1245  sudo rm -f /usr/local/bin/ruby
+ 1246  sudo rm -f /usr/local/bin/gem
+ 1247  sudo rm -f /usr/local/bin/rake
+ 1248  which ruby
+ 1249  which gem
+ 1250  which rake
+ 1251  ps aux | grep -E 'rake|redis|ruby'
+ 1252  kill -9 742650
+ 1253  sudo kill -9 742650
+ 1254  ps aux | grep -E 'rake|redis|ruby'
+ 1255  ps aux | grep rake
+ 1256  ps aux | grep resque
+ 1257  redis-cli
+ 1258  # test_job.rb
+ 1259  class TestJob
+ 1260  end
+ 1261  sudo apt install redis-tools
+ 1262  pkill -f "rake resque:work"
+ 1263  ps aux | grep rake
+ 1264  kill -9 752645 752646 752647 752648 752650 752651 752652 752653 752654 752655 752656 752657 752658 752659 752660 753627 753629 753630 753633 753635
+ 1265  kill -9 2385 753580
+ 1266  ps aux | grep -E "rake|resque"
+ 1267  kill -9 760454 760458
+ 1268  ps -ef | grep resque
+ 1269  sudo systemctl stop resque-scheduler.service  # if using systemd
+ 1270  cd /path/to/your/rails/app
+ 1271  cat Procfile  # check for process definitions
+ 1272  sudo apt update
+ 1273  sudo systemctl status redis
+ 1274  sudo apt update
+ 1275  sudo apt install redis-server
+ 1276  sudo systemctl enable redis
+ 1277  sudo systemctl start redis
+ 1278  systemctl list-units --type=service | grep redis
+ 1279  ls /lib/systemd/system/ | grep redis
+ 1280  sudo systemctl enable redis-server
+ 1281  sudo systemctl start redis-server
+ 1282  sudo systemctl status redis
+ 1283  sudo systemctl status redis-server
+ 1284  redis-cli ping
+ 1285  pkill -f resque:work
+ 1286  QUEUE=* rake resque:work
+ 1287  QUEUE=* /usr/local/ruby-2.7.0/bin/rake resque:work
+ 1288  echo 'export PATH="/usr/local/ruby-2.7.0/bin:$PATH"' >> ~/.bashrc
+ 1289  source ~/.bashrc
+ 1290  which rake
+ 1291  /usr/local/ruby-2.7.0/bin/ruby -v
+ 1292  /usr/local/ruby-2.7.0/bin/gem install rake
+ 1293  # 1. Install dependencies
+ 1294  sudo apt update
+ 1295  sudo apt install -y build-essential libssl-dev libreadline-dev zlib1g-dev git curl
+ 1296  # 2. Clone rbenv and ruby-build
+ 1297  git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+ 1298  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+ 1299  echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc
+ 1300  source ~/.bashrc
+ 1301  git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+ 1302  # 3. Install Ruby (2.7.0 or any version you want)
+ 1303  rbenv install 2.7.0
+ 1304  rbenv global 2.7.0
+ 1305  # 4. Confirm installation
+ 1306  ruby -v
+ 1307  which ruby
+ 1308  # 5. Install required gems
+ 1309  gem install bundler rake resque
+ 1310  QUEUE=* rake resque:work
+ 1311  ps aux | grep rake
+ 1312  ps aux | grep '/usr/local/ruby-2.7.0/bin/ruby' | grep resque | awk '{print $2}' | xargs -r kill -9
+ 1313  ps aux | grep resque
+ 1314  ps aux | grep rake
+ 1315  ps aux | grep '/usr/local/ruby-2.7.0/bin/ruby' | grep resque | awk '{print $2}' | xargs -r kill -9
+ 1316  ps aux | grep resque-scheduler | awk '{print $2}' | xargs -r kill -9
+ 1317  ps aux | grep resque
+ 1318  crontab -l
+ 1319  systemctl list-units --type=service | grep resque
+ 1320  pkill -f resque
+ 1321  pkill -f scheduler
+ 1322  ps aux | grep resque
+ 1323  ps aux | grep 'bin/rails resque:workers'
+ 1324  kill -9 116066
+ 1325  kill -9 116915
+ 1326  ps aux | grep 'bin/rails resque:workers'
+ 1327  kill -9 118272
+ 1328  ps aux | grep 'bin/rails resque:workers'
+ 1329  kill -9 118811
+ 1330  ps aux | grep -E 'forever|supervisord|god|systemd'
+ 1331  /usr/local/ruby-2.7.0/bin/ruby bin/rails resque:workers
+ 1332  ps aux | grep 'bin/rails resque:workers'
+ 1333  grep resque ~/.bashrc ~/.profile ~/.bash_profile 2>/dev/null
+ 1334  cat /etc/rc.local
+ 1335  ls ~/.config/autostart/
+ 1336  sudo ls ~/.config/autostart/
+ 1337  cat ~/.config/autostart/*.desktop
+ 1338  ps aux | grep -E 'guard|entr|inotify'
+ 1339  forever list
+ 1340  pm2 list
+ 1341  pm2 start app.js --watch
+ 1342  sudo npm install -g pm2
+ 1343  ps aux | grep -E 'guard|entr|inotify'
+ 1344  ps aux | grep resque
+ 1345  pkill -f resque
+ 1346  ps aux | grep resque
+ 1347  QUEUE=* COUNT=20 rake resque:workers
+ 1348  QUEUE=* COUNT=2 rake resque:workers
+ 1349  tail -f log/resque.log
+ 1350  gem install resque-web
+ 1351  resque-web
+ 1352  ps -aux | grep Z
+ 1353  ps aux --sort=-%cpu | head -n 10
+ 1354  ps aux | grep resque | grep -v grep | awk '{print $2}' | xargs sudo kill -9
+ 1355  ps -ef | grep ruby
+ 1356  pstree -p | grep ruby
+ 1357  ps -ef | grep ruby
+ 1358  kill -9 336889
+ 1359  ps -ef | grep ruby
+ 1360  kill -9 336889
+ 1361  ps -ef | grep ruby
+ 1362  kill -9 337374
+ 1363  ps -ef | grep ruby
+ 1364  kill -9 337839
+ 1365  pstree -p | grep ruby
+ 1366  kill -9 338289
+ 1367  pstree -p | grep ruby
+ 1368  kill -9 2413
+ 1369  pstree -p | grep ruby
+ 1370  pstree -p | grep ruby 339898
+ 1371  kill -9 339898
+ 1372  pstree -p | grep ruby 339898
+ 1373  pstree -p | grep ruby
+ 1374  pstree -p | grep ruby 339898
+ 1375  pstree -p | grep ruby
+ 1376  pstree -p | grep ruby 339898
+ 1377  kill -9 339898
+ 1378  pstree -p | grep ruby
+ 1379  kill -9 341874
+ 1380  ps -p 326578 -o pid,ppid,cmd
+ 1381  pstree -p | grep ruby
+ 1382  ps -p 342764 -o pid,ppid,cmd
+ 1383  pstree -p | grep ruby
+ 1384  ps -p 342997 -o pid,ppid,cmd
+ 1385  pstree -p | grep ruby
+ 1386  ps -p 343678 -o pid,ppid,cmd
+ 1387  systemctl --user | grep resque
+ 1388  systemctl --user stop resque-web
+ 1389  systemctl --user disable resque-web
+ 1390  crontab -l
+ 1391  crontab -e
+ 1392  ps aux | grep -E 'nohup|tmux|screen' | grep ruby
+ 1393  grep -r 'resque' ~/.config/ ~/.bashrc ~/.bash_profile ~/.profile ~/.zshrc /etc/systemd /etc/init.d /etc/rc.local
+ 1394  * * * * * ps aux | grep resque | grep -v grep | awk '{print $2}' | xargs kill -9
+ 1395  ls -l /proc/343678/exe
+ 1396  ls -l /proc/343678/cmdline
+ 1397  cat /proc/343678/cmdline | tr '\0' ' '
+ 1398  nohup bundle exec rake resque:work &
+ 1399  ps aux | grep ruby
+ 1400  kill -9 350601
+ 1401  ps aux | grep ruby
+ 1402  kill -9 350601
+ 1403  ps aux | grep ruby
+ 1404  kill -9 351251
+ 1405  ps aux | grep ruby
+ 1406  kill -9 351251
+ 1407  ps aux | grep ruby
+ 1408  kill -9 351251
+ 1409  ps aux | grep ruby
+ 1410  kill -9 351907
+ 1411  nano ~/.bashrc
+ 1412  nano ~/.bash_profile
+ 1413  nano ~/.profile
+ 1414  ls ~/.config/systemd/user/
+ 1415  systemctl --user disable some-resque.service
+ 1416  rm ~/.config/systemd/user/some-resque.service
+ 1417  systemctl --user disable some-resque.service
+ 1418  rm ~/.config/systemd/user/some-resque.service
+ 1419  systemctl --user disable some-resque.service
+ 1420  rm ~/.config/systemd/user/some-resque.service
+ 1421  ps aux | grep nohup
+ 1422  ls ~/nohup.out
+ 1423  cat ~/nohup.out
+ 1424  ps aux | grep nohup
+ 1425  ls ~/nohup.out
+ 1426  ps aux | grep nohup
+ 1427  pkill -f resque:work
+ 1428  pkill -f resque:workers
+ 1429  pkill -f resque
+ 1430  pkill -f ruby
+ 1431  ps aux | grep ruby
+ 1432  * * * * * ps aux | grep resque | grep -v grep | awk '{print $2}' | xargs kill -9
+ 1433  ls
+ 1434  cd coding-platform/
+ 1435  ls
+ 1436  node 
+ 1437  npm run dev
+ 1438  prisma 
+ 1439  prisma --v
+ 1440  npm list
+ 1441  npx src/packages/prisma migrate dev --name init
+ 1442  npx -v
+ 1443  cd src/packages/
+ 1444  npx prisma migrate dev --name init
+ 1445  ls
+ 1446  cd db
+ 1447  cd ..
+ 1448  npx src/packages/db/prisma/ migrate dev --name init
+ 1449  cd src/
+ 1450  cd packages/db/
+ 1451  ls
+ 1452  npx prisma migrate dev --name init
+ 1453  ls
+ 1454  npx ts-node prisma/seed.ts 
+ 1455  npx tsc prisma/seed.ts
+ 1456  node prisma/seed.js
+ 1457  npm install -D ts-node typescript @types/node
+ 1458  npx ts-node prisma/seed.ts
+ 1459  node --loader ts-node/esm prisma/seed.ts
+ 1460  npx ts-node prisma/seed.ts
+ 1461  cd prisma/
+ 1462  ls
+ 1463  node --loader ts-node/esm seed.ts
+ 1464  history > my_commands.txt
