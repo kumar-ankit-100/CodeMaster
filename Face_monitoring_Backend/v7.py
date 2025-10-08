@@ -1091,4 +1091,5 @@ async def add_error_handling(request: Request, call_next):
         )
 
 if __name__ == "__main__":
+    port = int(os.getenv("PORT", 8000))
     uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=False)  # Disable reload in production for better performance
