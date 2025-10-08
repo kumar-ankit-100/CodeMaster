@@ -736,6 +736,8 @@ async def detect_cheating(
     Optimized for better performance and accuracy.
     """
     try:
+        logger.info(f"Incoming request - session_id: {session_id}")
+        logger.info(f"user_sessions: {user_sessions}")
         # Validate session
         if session_id not in user_sessions:
             raise HTTPException(status_code=404, detail="Invalid session ID. Please start a new exam session.")
