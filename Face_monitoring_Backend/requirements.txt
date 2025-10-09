@@ -97,6 +97,5 @@ wrapt==1.17.2
 
 sqlalchemy==2.0.27
 psycopg2-binary==2.9.10
-Pillow==10.2.0
 python-dotenv==1.0.0
 scikit-image==0.22.0
