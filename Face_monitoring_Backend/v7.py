@@ -1,3 +1,8 @@
+import os
+# Force CPU-only to avoid CUDA initialization errors on Render (no GPU)
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  # quiet TF logs
+
 from fastapi import FastAPI, File, Form, UploadFile, HTTPException, status, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -15,7 +20,7 @@ from datetime import datetime
 from collections import deque
 import hashlib
 import uuid
-import os
+# import os
 
 # ============ DATABASE IMPORTS ============
 from sqlalchemy import create_engine, Column, String, Integer, Text, DateTime, Float, Boolean
